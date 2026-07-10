@@ -1,0 +1,461 @@
+{
+  "niches": [
+    {
+      "id": "fundamentos",
+      "nome": "Fundamentos (Redes/SO)",
+      "descricao": "Base técnica: redes, sistemas operacionais, protocolos"
+    },
+    {
+      "id": "ofensiva",
+      "nome": "Segurança Ofensiva (Red Team/Pentest)",
+      "descricao": "Ataque, exploração, testes de invasão"
+    },
+    {
+      "id": "defensiva",
+      "nome": "Segurança Defensiva (Blue Team/SOC)",
+      "descricao": "Monitoramento, detecção, SIEM, SOC"
+    },
+    {
+      "id": "grc",
+      "nome": "GRC (Governança, Risco, Compliance)",
+      "descricao": "Normas, políticas, auditoria, LGPD/GDPR"
+    },
+    {
+      "id": "cloud",
+      "nome": "Cloud Security",
+      "descricao": "Segurança em AWS, Azure, GCP"
+    },
+    {
+      "id": "appsec",
+      "nome": "AppSec (Segurança de Aplicações)",
+      "descricao": "Segurança no desenvolvimento de software"
+    },
+    {
+      "id": "arquitetura",
+      "nome": "Arquitetura de Segurança",
+      "descricao": "Design de sistemas seguros, zero trust, defesa em profundidade"
+    },
+    {
+      "id": "forense",
+      "nome": "Forense Digital",
+      "descricao": "Investigação, análise pós-incidente"
+    },
+    {
+      "id": "ir",
+      "nome": "Resposta a Incidentes (IR)",
+      "descricao": "Contenção, erradicação, recuperação"
+    },
+    {
+      "id": "cripto",
+      "nome": "Criptografia",
+      "descricao": "Algoritmos, PKI, certificados"
+    },
+    {
+      "id": "iam",
+      "nome": "IAM (Gestão de Identidade e Acesso)",
+      "descricao": "Autenticação, autorização, controle de acesso"
+    },
+    {
+      "id": "devsecops",
+      "nome": "DevSecOps",
+      "descricao": "Segurança integrada em CI/CD"
+    },
+    {
+      "id": "osint",
+      "nome": "OSINT / Reconhecimento",
+      "descricao": "Coleta de informação em fontes abertas"
+    },
+    {
+      "id": "malware",
+      "nome": "Análise de Malware",
+      "descricao": "Engenharia reversa, análise estática/dinâmica"
+    }
+  ],
+  "items": [
+    {
+      "id": "cisco-intro",
+      "nicheId": "fundamentos",
+      "nome": "Cisco Intro to Cybersecurity",
+      "tipo": "curso",
+      "gratuito": true,
+      "url": "https://skillsforall.com/course/introduction-to-cybersecurity",
+      "nivel": "iniciante"
+    },
+    {
+      "id": "thm-presecurity",
+      "nicheId": "fundamentos",
+      "nome": "TryHackMe Pre Security",
+      "tipo": "curso",
+      "gratuito": true,
+      "url": "https://tryhackme.com/path/outline/presecurity",
+      "nivel": "iniciante"
+    },
+    {
+      "id": "netplus",
+      "nicheId": "fundamentos",
+      "nome": "CompTIA Network+",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.comptia.org/en-us/certifications/network/",
+      "nivel": "iniciante",
+      "preco_usd": 399
+    },
+    {
+      "id": "aplus",
+      "nicheId": "fundamentos",
+      "nome": "CompTIA A+",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.comptia.org/en-us/certifications/a/",
+      "nivel": "iniciante",
+      "preco_usd": 548
+    },
+    {
+      "id": "thm-jrpentester",
+      "nicheId": "ofensiva",
+      "nome": "TryHackMe Jr Pentester Path",
+      "tipo": "curso",
+      "gratuito": true,
+      "url": "https://tryhackme.com/path/outline/jrpenetrationtester",
+      "nivel": "iniciante"
+    },
+    {
+      "id": "thm-cyber101",
+      "nicheId": "ofensiva",
+      "nome": "TryHackMe Cyber Security 101",
+      "tipo": "curso",
+      "gratuito": true,
+      "url": "https://tryhackme.com/path/outline/cybersecurity101",
+      "nivel": "iniciante"
+    },
+    {
+      "id": "pentestplus",
+      "nicheId": "ofensiva",
+      "nome": "CompTIA PenTest+",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.comptia.org/en-us/certifications/pentest/",
+      "nivel": "intermediário",
+      "preco_usd": 439
+    },
+    {
+      "id": "ceh",
+      "nicheId": "ofensiva",
+      "nome": "CEH (Certified Ethical Hacker)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/",
+      "nivel": "intermediário",
+      "preco_usd": 1199
+    },
+    {
+      "id": "oscp",
+      "nicheId": "ofensiva",
+      "nome": "OSCP (Offensive Security)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.offsec.com/courses/pen-200/",
+      "nivel": "avançado",
+      "preco_usd": 1749
+    },
+    {
+      "id": "hackthebox",
+      "nicheId": "ofensiva",
+      "nome": "Hack The Box",
+      "tipo": "prática",
+      "gratuito": true,
+      "url": "https://www.hackthebox.com/",
+      "nivel": "intermediário"
+    },
+    {
+      "id": "thm-secblue",
+      "nicheId": "defensiva",
+      "nome": "TryHackMe SOC Level 1 Path",
+      "tipo": "curso",
+      "gratuito": true,
+      "url": "https://tryhackme.com/path/outline/soclevel1",
+      "nivel": "iniciante"
+    },
+    {
+      "id": "letsdefend",
+      "nicheId": "defensiva",
+      "nome": "LetsDefend",
+      "tipo": "prática",
+      "gratuito": true,
+      "url": "https://letsdefend.io/",
+      "nivel": "iniciante"
+    },
+    {
+      "id": "securityplus",
+      "nicheId": "defensiva",
+      "nome": "CompTIA Security+",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.comptia.org/en-us/certifications/security/",
+      "nivel": "iniciante",
+      "preco_usd": 439
+    },
+    {
+      "id": "cysa",
+      "nicheId": "defensiva",
+      "nome": "CompTIA CySA+",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.comptia.org/en-us/certifications/cybersecurity-analyst/",
+      "nivel": "intermediário",
+      "preco_usd": 439
+    },
+    {
+      "id": "prof-messer",
+      "nicheId": "defensiva",
+      "nome": "Professor Messer (YouTube, prep Security+)",
+      "tipo": "curso",
+      "gratuito": true,
+      "url": "https://www.professormesser.com/",
+      "nivel": "iniciante"
+    },
+    {
+      "id": "isc2-cc",
+      "nicheId": "grc",
+      "nome": "ISC2 Certified in Cybersecurity (CC)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.isc2.org/certifications/cc",
+      "nivel": "iniciante",
+      "preco_usd": 199
+    },
+    {
+      "id": "cisa",
+      "nicheId": "grc",
+      "nome": "CISA (ISACA)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.isaca.org/credentialing/cisa",
+      "nivel": "avançado",
+      "preco_usd": 760
+    },
+    {
+      "id": "cissp",
+      "nicheId": "grc",
+      "nome": "CISSP (ISC2)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.isc2.org/certifications/cissp",
+      "nivel": "avançado",
+      "preco_usd": 749
+    },
+    {
+      "id": "iso27001",
+      "nicheId": "grc",
+      "nome": "ISO/IEC 27001 Foundation",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.iso.org/standard/27001",
+      "nivel": "intermediário",
+      "preco_usd": 395
+    },
+    {
+      "id": "aws-cloudpract",
+      "nicheId": "cloud",
+      "nome": "AWS Cloud Practitioner",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+      "nivel": "iniciante",
+      "preco_usd": 100
+    },
+    {
+      "id": "aws-secspec",
+      "nicheId": "cloud",
+      "nome": "AWS Certified Security - Specialty",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://aws.amazon.com/certification/certified-security-specialty/",
+      "nivel": "avançado",
+      "preco_usd": 300
+    },
+    {
+      "id": "az900",
+      "nicheId": "cloud",
+      "nome": "Microsoft AZ-900 (Azure Fundamentals)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/",
+      "nivel": "iniciante",
+      "preco_usd": 99
+    },
+    {
+      "id": "az500",
+      "nicheId": "cloud",
+      "nome": "Microsoft AZ-500 (Azure Security)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/",
+      "nivel": "intermediário",
+      "preco_usd": 165
+    },
+    {
+      "id": "cloudplus",
+      "nicheId": "cloud",
+      "nome": "CompTIA Cloud+",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.comptia.org/en-us/certifications/cloud/",
+      "nivel": "intermediário",
+      "preco_usd": 399
+    },
+    {
+      "id": "portswigger",
+      "nicheId": "appsec",
+      "nome": "PortSwigger Web Security Academy",
+      "tipo": "curso",
+      "gratuito": true,
+      "url": "https://portswigger.net/web-security",
+      "nivel": "iniciante"
+    },
+    {
+      "id": "owasp-top10",
+      "nicheId": "appsec",
+      "nome": "OWASP Top 10",
+      "tipo": "curso",
+      "gratuito": true,
+      "url": "https://owasp.org/www-project-top-ten/",
+      "nivel": "iniciante"
+    },
+    {
+      "id": "sabsa",
+      "nicheId": "arquitetura",
+      "nome": "SABSA Foundation",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://sabsa.org/sabsa-certifications/",
+      "nivel": "avançado",
+      "preco_usd": 895
+    },
+    {
+      "id": "togaf",
+      "nicheId": "arquitetura",
+      "nome": "TOGAF",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.opengroup.org/togaf",
+      "nivel": "avançado",
+      "preco_usd": 495
+    },
+    {
+      "id": "cciso",
+      "nicheId": "arquitetura",
+      "nome": "EC-Council CCISO",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.eccouncil.org/programs/certified-ciso-cciso/",
+      "nivel": "avançado",
+      "preco_usd": 999
+    },
+    {
+      "id": "gcfe",
+      "nicheId": "forense",
+      "nome": "GIAC GCFE (Forensic Examiner)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.giac.org/certifications/certified-forensic-examiner-gcfe/",
+      "nivel": "avançado",
+      "preco_usd": 999
+    },
+    {
+      "id": "thm-forensics",
+      "nicheId": "forense",
+      "nome": "TryHackMe Digital Forensics Path",
+      "tipo": "curso",
+      "gratuito": true,
+      "url": "https://tryhackme.com/path/outline/digital-forensics",
+      "nivel": "intermediário"
+    },
+    {
+      "id": "gcih",
+      "nicheId": "ir",
+      "nome": "GIAC GCIH (Incident Handler)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.giac.org/certifications/certified-incident-handler-gcih/",
+      "nivel": "avançado",
+      "preco_usd": 999
+    },
+    {
+      "id": "nist-ir",
+      "nicheId": "ir",
+      "nome": "NIST SP 800-61 (guia IR)",
+      "tipo": "leitura",
+      "gratuito": true,
+      "url": "https://csrc.nist.gov/pubs/sp/800/61/r2/final",
+      "nivel": "intermediário"
+    },
+    {
+      "id": "cryptopals",
+      "nicheId": "cripto",
+      "nome": "Cryptopals Challenges",
+      "tipo": "prática",
+      "gratuito": true,
+      "url": "https://cryptopals.com/",
+      "nivel": "intermediário"
+    },
+    {
+      "id": "thm-iam",
+      "nicheId": "iam",
+      "nome": "TryHackMe Identity and Access Management (room)",
+      "tipo": "curso",
+      "gratuito": false,
+      "url": "https://tryhackme.com/room/iaaaidm",
+      "nivel": "intermediário",
+      "obs": "requer assinatura TryHackMe Premium (mensal), não é taxa única"
+    },
+    {
+      "id": "thm-devsecops",
+      "nicheId": "devsecops",
+      "nome": "TryHackMe DevSecOps Path",
+      "tipo": "curso",
+      "gratuito": true,
+      "url": "https://tryhackme.com/path/outline/devsecops",
+      "nivel": "intermediário"
+    },
+    {
+      "id": "thm-osint",
+      "nicheId": "osint",
+      "nome": "TryHackMe OhSINT (room OSINT)",
+      "tipo": "curso",
+      "gratuito": true,
+      "url": "https://tryhackme.com/room/ohsint",
+      "nivel": "iniciante"
+    },
+    {
+      "id": "osint-framework",
+      "nicheId": "osint",
+      "nome": "OSINT Framework",
+      "tipo": "ferramenta",
+      "gratuito": true,
+      "url": "https://osintframework.com/",
+      "nivel": "iniciante"
+    },
+    {
+      "id": "malwareunicorn",
+      "nicheId": "malware",
+      "nome": "MalwareUnicorn RE Workshops",
+      "tipo": "curso",
+      "gratuito": true,
+      "url": "https://malwareunicorn.org/#/workshops",
+      "nivel": "intermediário"
+    },
+    {
+      "id": "gciha",
+      "nicheId": "malware",
+      "nome": "GIAC GREM (Reverse Engineering Malware)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.giac.org/certifications/reverse-engineering-malware-grem/",
+      "nivel": "avançado",
+      "preco_usd": 999
+    }
+  ],
+  "atualizado_em": "2026-07-10",
+  "preco_obs": "Valores em USD, aproximados (fonte: sites oficiais/agregadores, jul/2026). Sujeitos a reajuste e variação por região."
+}
