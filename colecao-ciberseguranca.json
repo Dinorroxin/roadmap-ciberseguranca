@@ -69,6 +69,11 @@
       "id": "malware",
       "nome": "Análise de Malware",
       "descricao": "Engenharia reversa, análise estática/dinâmica"
+    },
+    {
+      "id": "asset",
+      "nome": "Segurança de Ativos / Privacidade",
+      "descricao": "Classificação e proteção de dados, privacidade, segurança física de ativos"
     }
   ],
   "items": [
@@ -454,8 +459,600 @@
       "url": "https://www.giac.org/certifications/reverse-engineering-malware-grem/",
       "nivel": "avançado",
       "preco_usd": 999
+    },
+    {
+      "id": "fortinet-certified-fundamentals-in-cyber",
+      "nicheId": "fundamentos",
+      "nome": "Fortinet Certified Fundamentals in Cybersecurity",
+      "tipo": "certificação",
+      "gratuito": true,
+      "url": "https://training.fortinet.com/local/staticpage/view.php?page=fcf_cybersecurity",
+      "nivel": "iniciante"
+    },
+    {
+      "id": "crest-certified-network-intrusion-analys",
+      "nicheId": "fundamentos",
+      "nome": "CREST Certified Network Intrusion Analyst",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-network-intrusion-analyst",
+      "nivel": "intermediario",
+      "preco_usd": 2481,
+      "obs": "CREST reestruturou o site (novo padrão /skills-certifications-careers/) — confirmar link antes de publicar"
+    },
+    {
+      "id": "fortinet-certified-expert-security-opera",
+      "nicheId": "fundamentos",
+      "nome": "Fortinet Certified Expert - Security Operations",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://training.fortinet.com/local/staticpage/view.php?page=fcx_cybersecurity",
+      "nivel": "avancado",
+      "preco_usd": 2000,
+      "obs": "escrito + prático"
+    },
+    {
+      "id": "checkpoint-certified-security-master",
+      "nicheId": "fundamentos",
+      "nome": "Checkpoint Certified Security Master",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://training-certifications.checkpoint.com/#/courses/Check%20Point%20Certified%20Master%20(CCSM)%20R80.x",
+      "nivel": "avancado",
+      "preco_usd": 350,
+      "obs": "requer CCSE + 2 acreditações prévias"
+    },
+    {
+      "id": "exin-ethical-hacking-foundation",
+      "nicheId": "ofensiva",
+      "nome": "EXIN Ethical Hacking Foundation",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.exin.com/certifications/exin-ethical-hacking-foundation-exam",
+      "nivel": "iniciante",
+      "preco_usd": 232,
+      "obs": "preço varia bastante por revendedor, conferir no site"
+    },
+    {
+      "id": "seco-ethical-hacking-foundation",
+      "nicheId": "ofensiva",
+      "nome": "SECO Ethical Hacking Foundation",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.seco-institute.org/certifications/ethical-hacking-certification-track/ethical-hacking-foundation/",
+      "nivel": "iniciante",
+      "preco_usd": 460
+    },
+    {
+      "id": "offensive-security-web-assessor",
+      "nicheId": "ofensiva",
+      "nome": "Offensive Security Web Assessor (OSWA)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.offensive-security.com/web200-oswa/",
+      "nivel": "intermediario",
+      "preco_usd": 2499,
+      "obs": "inclui assinatura de aprendizado"
+    },
+    {
+      "id": "portswigger-burp-suite-certified-practit",
+      "nicheId": "ofensiva",
+      "nome": "PortSwigger Burp Suite Certified Practitioner",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://portswigger.net/web-security/certification",
+      "nivel": "intermediario",
+      "preco_usd": null,
+      "obs": "preço não verificado individualmente"
+    },
+    {
+      "id": "giac-penetration-tester",
+      "nicheId": "ofensiva",
+      "nome": "GIAC Penetration Tester (GPEN)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.giac.org/certification/gpen",
+      "nivel": "avancado",
+      "preco_usd": 979,
+      "obs": "faixa $949-999, curso SANS opcional (~$8,5k)"
+    },
+    {
+      "id": "tcm-security-practical-network-penetrati",
+      "nicheId": "ofensiva",
+      "nome": "TCM Security Practical Network Penetration Tester (PNPT)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://certifications.tcm-sec.com/pnpt/",
+      "nivel": "avancado",
+      "preco_usd": 499
+    },
+    {
+      "id": "ec-council-certified-network-defender",
+      "nicheId": "defensiva",
+      "nome": "EC-Council Certified Network Defender (CND)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.eccouncil.org/programs/certified-network-defender-cnd/",
+      "nivel": "iniciante",
+      "preco_usd": 480
+    },
+    {
+      "id": "cisco-certified-cybersecurity-associate",
+      "nicheId": "defensiva",
+      "nome": "Cisco Certified Cybersecurity Associate (ex-CyberOps Associate)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/cyberops-associate.html",
+      "nivel": "intermediario",
+      "preco_usd": 300,
+      "obs": "renomeado em jan/2026, era CyberOps Associate"
+    },
+    {
+      "id": "microsoft-certified-security-operations-",
+      "nicheId": "defensiva",
+      "nome": "Microsoft Certified: Security Operations Analyst Associate (SC-200)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/",
+      "nivel": "intermediario",
+      "preco_usd": 165
+    },
+    {
+      "id": "cisco-certified-cyberops-professional",
+      "nicheId": "defensiva",
+      "nome": "Cisco Certified CyberOps Professional",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/cyberops-professional.html",
+      "nivel": "avancado",
+      "preco_usd": 700,
+      "obs": "core + concentração"
+    },
+    {
+      "id": "giac-certified-enterprise-defender",
+      "nicheId": "defensiva",
+      "nome": "GIAC Certified Enterprise Defender (GCED)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.giac.org/certification/certified-enterprise-defender-gced",
+      "nivel": "avancado",
+      "preco_usd": 979,
+      "obs": "faixa $949-999"
+    },
+    {
+      "id": "giac-information-security-fundamentals",
+      "nicheId": "grc",
+      "nome": "GIAC Information Security Fundamentals (GISF)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.giac.org/certification/information-security-fundamentals-gisf",
+      "nivel": "iniciante",
+      "preco_usd": 979,
+      "obs": "faixa $949-999"
+    },
+    {
+      "id": "exin-information-security-foundation",
+      "nicheId": "grc",
+      "nome": "EXIN Information Security Foundation (ISO/IEC 27001)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.exin.com/certifications/information-security-foundation-based-iso-iec-27001-exam?language_content_entity=en",
+      "nivel": "iniciante",
+      "preco_usd": null,
+      "obs": "preço não verificado individualmente"
+    },
+    {
+      "id": "isc-2-systems-security-certified-practit",
+      "nicheId": "grc",
+      "nome": "(ISC)2 Systems Security Certified Practitioner (SSCP)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.isc2.org/Certifications/SSCP",
+      "nivel": "intermediario",
+      "preco_usd": 599
+    },
+    {
+      "id": "giac-security-essentials",
+      "nicheId": "grc",
+      "nome": "GIAC Security Essentials (GSEC)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.giac.org/certification/security-essentials-gsec",
+      "nivel": "intermediario",
+      "preco_usd": 979,
+      "obs": "faixa $949-999"
+    },
+    {
+      "id": "isaca-certified-information-security-man",
+      "nicheId": "grc",
+      "nome": "ISACA Certified Information Security Manager (CISM)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.isaca.org/credentialing/cism",
+      "nivel": "avancado",
+      "preco_usd": 760,
+      "obs": "$575 sócio ISACA / $760 não-sócio"
+    },
+    {
+      "id": "isaca-certified-in-risk-and-information-",
+      "nicheId": "grc",
+      "nome": "ISACA Certified in Risk and Information Systems Control (CRISC)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.isaca.org/credentialing/crisc",
+      "nivel": "avancado",
+      "preco_usd": 760,
+      "obs": "$575 sócio ISACA / $760 não-sócio (estimado)"
+    },
+    {
+      "id": "comptia-cloud-essentials",
+      "nicheId": "cloud",
+      "nome": "CompTIA Cloud Essentials",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.comptia.org/certifications/cloud-essentials",
+      "nivel": "iniciante",
+      "preco_usd": 138
+    },
+    {
+      "id": "cloud-security-alliance-certificate-of-c",
+      "nicheId": "cloud",
+      "nome": "Cloud Security Alliance Certificate of Cloud Security Knowledge (CCSK)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://cloudsecurityalliance.org/education/ccsk/",
+      "nivel": "intermediario",
+      "preco_usd": 445
+    },
+    {
+      "id": "google-professional-cloud-security-engin",
+      "nicheId": "cloud",
+      "nome": "Google Professional Cloud Security Engineer",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://cloud.google.com/learn/certification/cloud-security-engineer",
+      "nivel": "intermediario",
+      "preco_usd": 200
+    },
+    {
+      "id": "isc-2-certified-cloud-security-professio",
+      "nicheId": "cloud",
+      "nome": "(ISC)2 Certified Cloud Security Professional (CCSP)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.isc2.org/Certifications/CCSP",
+      "nivel": "avancado",
+      "preco_usd": 599
+    },
+    {
+      "id": "giac-public-cloud-security",
+      "nicheId": "cloud",
+      "nome": "GIAC Public Cloud Security (GPCS)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.giac.org/certifications/public-cloud-security-gpcs/",
+      "nivel": "avancado",
+      "preco_usd": 979,
+      "obs": "faixa $949-999"
+    },
+    {
+      "id": "seco-secure-programming-foundation",
+      "nicheId": "appsec",
+      "nome": "SECO Secure Programming Foundation",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.seco-institute.org/certifications/secure-software-certification-track/secure-programming-foundation/",
+      "nivel": "iniciante",
+      "preco_usd": 460
+    },
+    {
+      "id": "cisco-devnet-associate",
+      "nicheId": "appsec",
+      "nome": "Cisco DevNet Associate (ex, agora CCNA Automation)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/devnet/associate/index.html",
+      "nivel": "intermediario",
+      "preco_usd": 300,
+      "obs": "trilha renomeada para Automation em fev/2026"
+    },
+    {
+      "id": "certnexus-cyber-secure-coder",
+      "nicheId": "appsec",
+      "nome": "CertNexus Cyber Secure Coder",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://certnexus.com/certification/cyber-secure-coder/",
+      "nivel": "intermediario",
+      "preco_usd": 300,
+      "obs": "preço não verificado individualmente"
+    },
+    {
+      "id": "isc-2-certified-secure-software-lifecycl",
+      "nicheId": "appsec",
+      "nome": "(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.isc2.org/Certifications/CSSLP",
+      "nivel": "avancado",
+      "preco_usd": 599
+    },
+    {
+      "id": "giac-certified-web-application-defender",
+      "nicheId": "appsec",
+      "nome": "GIAC Certified Web Application Defender (GWEB)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.giac.org/certification/certified-web-application-defender-gweb",
+      "nivel": "avancado",
+      "preco_usd": 979,
+      "obs": "faixa $949-999"
+    },
+    {
+      "id": "microsoft-cybersecurity-architect",
+      "nicheId": "arquitetura",
+      "nome": "Microsoft Cybersecurity Architect (SC-100)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-100/",
+      "nivel": "avancado",
+      "preco_usd": 165
+    },
+    {
+      "id": "giac-defensible-security-architecture",
+      "nicheId": "arquitetura",
+      "nome": "GIAC Defensible Security Architecture (GDSA)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.giac.org/certification/defensible-security-architecture-gdsa",
+      "nivel": "avancado",
+      "preco_usd": 979,
+      "obs": "faixa $949-999"
+    },
+    {
+      "id": "ec-council-computer-hacking-forensic-inv",
+      "nicheId": "forense",
+      "nome": "EC-Council Computer Hacking Forensic Investigator (CHFI)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.eccouncil.org/programs/computer-hacking-forensic-investigator-chfi/",
+      "nivel": "intermediario",
+      "preco_usd": 568
+    },
+    {
+      "id": "giac-certified-forensic-analyst",
+      "nicheId": "forense",
+      "nome": "GIAC Certified Forensic Analyst (GCFA)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.giac.org/certification/gcfa",
+      "nivel": "avancado",
+      "preco_usd": 979,
+      "obs": "faixa $949-999"
+    },
+    {
+      "id": "giac-network-forensic-analyst",
+      "nicheId": "forense",
+      "nome": "GIAC Network Forensic Analyst (GNFA)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.giac.org/certification/network-forensic-analyst-gnfa",
+      "nivel": "avancado",
+      "preco_usd": 979,
+      "obs": "faixa $949-999"
+    },
+    {
+      "id": "ibitgq-cyber-incident-response-managemen",
+      "nicheId": "ir",
+      "nome": "IBITGQ Cyber Incident Response Management Foundation",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.itgovernance.co.uk/shop/product/cyber-incident-response-management-foundation-training-course",
+      "nivel": "iniciante",
+      "preco_usd": 768,
+      "obs": "curso + exame, curso de marca exigido; preço não re-verificado"
+    },
+    {
+      "id": "ec-council-certified-incident-handler",
+      "nicheId": "ir",
+      "nome": "EC-Council Certified Incident Handler (ECIH)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.eccouncil.org/programs/ec-council-certified-incident-handler-ecih/",
+      "nivel": "intermediario",
+      "preco_usd": 400
+    },
+    {
+      "id": "giac-enterprise-incident-response",
+      "nicheId": "ir",
+      "nome": "GIAC Enterprise Incident Response (GEIR)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.giac.org/certifications/enterprise-incident-responder-geir/",
+      "nivel": "avancado",
+      "preco_usd": 979,
+      "obs": "faixa $949-999"
+    },
+    {
+      "id": "elearnsecurity-ine-certified-incident-re",
+      "nicheId": "ir",
+      "nome": "eLearnSecurity/INE Certified Incident Responder (eCIR)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://security.ine.com/certifications/ecir-certification/",
+      "nivel": "avancado",
+      "preco_usd": null,
+      "obs": "preço não verificado individualmente"
+    },
+    {
+      "id": "microsoft-certified-security-compliance-",
+      "nicheId": "iam",
+      "nome": "Microsoft Certified: Security, Compliance, and Identity Fundamentals",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals/",
+      "nivel": "iniciante",
+      "preco_usd": 99
+    },
+    {
+      "id": "microsoft-certified-identity-and-access-",
+      "nicheId": "iam",
+      "nome": "Microsoft Certified: Identity and Access Administrator Associate",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/identity-and-access-administrator/",
+      "nivel": "intermediario",
+      "preco_usd": 165
+    },
+    {
+      "id": "salesforce-certified-identity-and-access",
+      "nicheId": "iam",
+      "nome": "Salesforce Certified Identity and Access Management Designer",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Identity-and-Access-Management-Designer-Exam-Guide",
+      "nivel": "intermediario",
+      "preco_usd": null,
+      "obs": "preço não verificado individualmente"
+    },
+    {
+      "id": "idpro-certified-identity-professional",
+      "nicheId": "iam",
+      "nome": "IDPro Certified Identity Professional (CIDPRO)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://idpro.org/cidpro/",
+      "nivel": "avancado",
+      "preco_usd": 700
+    },
+    {
+      "id": "fortinet-certified-solution-specialist-s",
+      "nicheId": "iam",
+      "nome": "Fortinet Certified Solution Specialist - SASE",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://training.fortinet.com/local/staticpage/view.php?page=fcss_SASE",
+      "nivel": "avancado",
+      "preco_usd": 800,
+      "obs": "dois exames"
+    },
+    {
+      "id": "pdso-certified-devsecops-professional",
+      "nicheId": "devsecops",
+      "nome": "PDSO Certified DevSecOps Professional (CDP)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.practical-devsecops.com/certified-devsecops-professional/",
+      "nivel": "intermediario",
+      "preco_usd": 899
+    },
+    {
+      "id": "pdso-certified-devsecops-expert",
+      "nicheId": "devsecops",
+      "nome": "PDSO Certified DevSecOps Expert (CDE)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.practical-devsecops.com/certified-devsecops-expert",
+      "nivel": "avancado",
+      "preco_usd": 1099
+    },
+    {
+      "id": "giac-open-source-intelligence",
+      "nicheId": "osint",
+      "nome": "GIAC Open Source Intelligence (GOSI)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.giac.org/certification/open-source-intelligence-gosi",
+      "nivel": "intermediario",
+      "preco_usd": 979,
+      "obs": "faixa $949-999"
+    },
+    {
+      "id": "inteltechniques-osint-professional",
+      "nicheId": "osint",
+      "nome": "IntelTechniques OSINT Professional (OSIP)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://inteltechniques.com/training-osip.html",
+      "nivel": "intermediario",
+      "preco_usd": null,
+      "obs": "preço não verificado individualmente"
+    },
+    {
+      "id": "infosec-institute-certified-reverse-engi",
+      "nicheId": "malware",
+      "nome": "InfoSec Institute Certified Reverse Engineering Analyst (CREA)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://app.infosecinstitute.com/portal/courses/a0tC0000000Fp4IIAS",
+      "nivel": "intermediario",
+      "preco_usd": 4599,
+      "obs": "exame + curso exigido"
+    },
+    {
+      "id": "tcm-security-practical-junior-malware-re",
+      "nicheId": "malware",
+      "nome": "TCM Security Practical Junior Malware Researcher (PJMR)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://certifications.tcm-sec.com/pjmr/",
+      "nivel": "avancado",
+      "preco_usd": 329
+    },
+    {
+      "id": "exin-privacy-and-data-protection-foundat",
+      "nicheId": "asset",
+      "nome": "EXIN Privacy and Data Protection Foundation",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.exin.com/certifications/exin-privacy-and-data-protection-foundation-exam",
+      "nivel": "iniciante",
+      "preco_usd": 207,
+      "obs": "preço não re-verificado"
+    },
+    {
+      "id": "iapp-certified-information-privacy-profe",
+      "nicheId": "asset",
+      "nome": "IAPP Certified Information Privacy Professional (CIPP)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://iapp.org/certify/cipp",
+      "nivel": "intermediario",
+      "preco_usd": 550
+    },
+    {
+      "id": "asis-associate-protection-professional",
+      "nicheId": "asset",
+      "nome": "ASIS Associate Protection Professional (APP)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.asisonline.org/certification/associate-protection-professional-app/",
+      "nivel": "intermediario",
+      "preco_usd": null,
+      "obs": "preço não verificado individualmente"
+    },
+    {
+      "id": "isaca-certified-data-privacy-solutions-e",
+      "nicheId": "asset",
+      "nome": "ISACA Certified Data Privacy Solutions Engineer (CDPSE)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://www.isaca.org/credentialing/certified-data-privacy-solutions-engineer",
+      "nivel": "avancado",
+      "preco_usd": 760,
+      "obs": "estimado, mesma faixa dos outros ISACA"
+    },
+    {
+      "id": "iapp-certified-information-privacy-techn",
+      "nicheId": "asset",
+      "nome": "IAPP Certified Information Privacy Technologist (CIPT)",
+      "tipo": "certificação",
+      "gratuito": false,
+      "url": "https://iapp.org/certify/cipt/",
+      "nivel": "avancado",
+      "preco_usd": 550
     }
   ],
-  "atualizado_em": "2026-07-10",
-  "preco_obs": "Valores em USD, aproximados (fonte: sites oficiais/agregadores, jul/2026). Sujeitos a reajuste e variação por região."
+  "atualizado_em": "2026-07-13",
+  "preco_obs": "Valores em USD, aproximados. Itens curados a partir do Security Certification Roadmap (pauljerimy.com), com preços e URLs re-verificados em jul/2026 — alguns marcados como não re-verificados individualmente (ver campo obs). Sujeitos a reajuste e variação por região."
 }

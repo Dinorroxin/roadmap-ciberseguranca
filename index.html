@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roadmap</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
 </head>
 <body>
     
@@ -16,24 +17,39 @@
 
     <div id="filter-price" class="group-filters">
         <h3>Preço</h3>
-        <button class="btn-filter" data-filter-price="free">Gratuito</button>
-        <button class="btn-filter" data-filter-price="paid">Pago</button>
+        <button class="btn-filter" data-filter-price="gratuito" data-tooltip="Sem custo para acessar">Gratuito</button>
+        <button class="btn-filter" data-filter-price="pago" data-tooltip="Requer pagamento ou assinatura">Pago</button>
     </div>
 
     <div id="filter-type" class="group-filters">
         <h3>Tipo</h3>
-        <button class="btn-filter" data-filter-type="course">Curso</button>
-        <button class="btn-filter" data-filter-type="certification">Certificação</button>
-        <button class="btn-filter" data-filter-type="practice">Prática</button>
-        <button class="btn-filter" data-filter-type="tool">Ferramenta</button>
-        <button class="btn-filter" data-filter-type="reading">Leitura</button>
+        <button class="btn-filter" data-filter-type="curso" data-tooltip="Trilha estruturada de aulas">Curso</button>
+        <button class="btn-filter" data-filter-type="certificação" data-tooltip="Exame oficial reconhecido pelo mercado">Certificação</button>
+        <button class="btn-filter" data-filter-type="prática" data-tooltip="Laboratório hands-on para treinar">Prática</button>
+        <button class="btn-filter" data-filter-type="ferramenta" data-tooltip="Software ou plataforma de apoio">Ferramenta</button>
+        <button class="btn-filter" data-filter-type="leitura" data-tooltip="Documentação, guia ou artigo">Leitura</button>
     </div>
 
     </section>
 
-    <section id="roadmap-container">
+    <section id="roadmap-container" class="matrix">
 
+    <div class="niche-columns"></div>
     </section>
+
+    <div id="item-popover" class="popover hidden"></div>
+
+    <p class="save-note">Progresso salvo apenas neste navegador/dispositivo.</p>
+    <p class="save-note">Caso troque de aparelho também o progresso de conclusão não será sincronizado.</p>
+
+    <footer class="author">
+        <h3>Autor</h3>
+        <p>Este roadmap foi criado e mantido por Felipe Siqueira Ramos Galvez.</p>
+        <p class="author-link">
+            <img src="./images/GitHub_Invertocat_White.png" alt="" class="github-icon">
+            <a href="https://github.com/Dinorroxin/roadmap-ciberseguranca" target="_blank" rel="noopener noreferrer">Repositório no GitHub</a>
+        </p>
+    </footer>
 
 </body>
 </html>

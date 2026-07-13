@@ -22,11 +22,11 @@ Mais do que uma ferramenta de estudo, esse projeto também é meu primeiro conta
 
 - [x] Base de dados em JSON, separando **nichos** (categorias) de **itens** (cursos/certificações)
 - [x] Preços verificados e atualizados (USD, jul/2026)
-- [x] Campo de pré-requisito entre itens (ex: Security+ requer Network+)
-- [ ] Filtro por preço (gratuito / pago)
-- [ ] Filtro por tipo (curso, certificação, prática, ferramenta, leitura)
-- [ ] Interface visual (Figma → HTML/CSS/JS)
-- [ ] Progresso salvo (marcar item como concluído)
+- [ ] Campo de pré-requisito entre itens (ex: Security+ requer Network+)
+- [x] Filtro por preço (gratuito / pago)
+- [x] Filtro por tipo (curso, certificação, prática, ferramenta, leitura)
+- [x] Interface visual (Figma → HTML/CSS/JS)
+- [x] Progresso salvo
 - [ ] Deploy no Vercel
 
 ---
@@ -86,7 +86,7 @@ cd roadmap-ciberseguranca
 
 ## Status
 
-Projeto em desenvolvimento ativo — próximos passos: layout no Figma, implementação dos filtros e deploy.
+Falta deploy ainda mas já está parcialmente senão totalmente completo
 
 ---
 
