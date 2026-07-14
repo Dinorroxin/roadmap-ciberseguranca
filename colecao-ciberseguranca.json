@@ -84,7 +84,8 @@
       "tipo": "curso",
       "gratuito": true,
       "url": "https://skillsforall.com/course/introduction-to-cybersecurity",
-      "nivel": "iniciante"
+      "nivel": "iniciante",
+      "requisito": []
     },
     {
       "id": "thm-presecurity",
@@ -93,7 +94,8 @@
       "tipo": "curso",
       "gratuito": true,
       "url": "https://tryhackme.com/path/outline/presecurity",
-      "nivel": "iniciante"
+      "nivel": "iniciante",
+      "requisito": []
     },
     {
       "id": "netplus",
@@ -103,7 +105,10 @@
       "gratuito": false,
       "url": "https://www.comptia.org/en-us/certifications/network/",
       "nivel": "iniciante",
-      "preco_usd": 399
+      "preco_usd": 399,
+      "requisito": [
+        "aplus"
+      ]
     },
     {
       "id": "aplus",
@@ -113,7 +118,8 @@
       "gratuito": false,
       "url": "https://www.comptia.org/en-us/certifications/a/",
       "nivel": "iniciante",
-      "preco_usd": 548
+      "preco_usd": 548,
+      "requisito": []
     },
     {
       "id": "thm-jrpentester",
@@ -122,7 +128,10 @@
       "tipo": "curso",
       "gratuito": true,
       "url": "https://tryhackme.com/path/outline/jrpenetrationtester",
-      "nivel": "iniciante"
+      "nivel": "iniciante",
+      "requisito": [
+        "thm-presecurity"
+      ]
     },
     {
       "id": "thm-cyber101",
@@ -131,7 +140,8 @@
       "tipo": "curso",
       "gratuito": true,
       "url": "https://tryhackme.com/path/outline/cybersecurity101",
-      "nivel": "iniciante"
+      "nivel": "iniciante",
+      "requisito": []
     },
     {
       "id": "pentestplus",
@@ -141,7 +151,10 @@
       "gratuito": false,
       "url": "https://www.comptia.org/en-us/certifications/pentest/",
       "nivel": "intermediário",
-      "preco_usd": 439
+      "preco_usd": 439,
+      "requisito": [
+        "netplus"
+      ]
     },
     {
       "id": "ceh",
@@ -151,7 +164,10 @@
       "gratuito": false,
       "url": "https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/",
       "nivel": "intermediário",
-      "preco_usd": 1199
+      "preco_usd": 1199,
+      "requisito": [
+        "thm-jrpentester"
+      ]
     },
     {
       "id": "oscp",
@@ -161,7 +177,11 @@
       "gratuito": false,
       "url": "https://www.offsec.com/courses/pen-200/",
       "nivel": "avançado",
-      "preco_usd": 1749
+      "preco_usd": 1749,
+      "requisito": [
+        "hackthebox",
+        "pentestplus"
+      ]
     },
     {
       "id": "hackthebox",
@@ -170,7 +190,10 @@
       "tipo": "prática",
       "gratuito": true,
       "url": "https://www.hackthebox.com/",
-      "nivel": "intermediário"
+      "nivel": "intermediário",
+      "requisito": [
+        "thm-jrpentester"
+      ]
     },
     {
       "id": "thm-secblue",
@@ -179,7 +202,10 @@
       "tipo": "curso",
       "gratuito": true,
       "url": "https://tryhackme.com/path/outline/soclevel1",
-      "nivel": "iniciante"
+      "nivel": "iniciante",
+      "requisito": [
+        "thm-presecurity"
+      ]
     },
     {
       "id": "letsdefend",
@@ -188,7 +214,8 @@
       "tipo": "prática",
       "gratuito": true,
       "url": "https://letsdefend.io/",
-      "nivel": "iniciante"
+      "nivel": "iniciante",
+      "requisito": []
     },
     {
       "id": "securityplus",
@@ -198,7 +225,10 @@
       "gratuito": false,
       "url": "https://www.comptia.org/en-us/certifications/security/",
       "nivel": "iniciante",
-      "preco_usd": 439
+      "preco_usd": 439,
+      "requisito": [
+        "netplus"
+      ]
     },
     {
       "id": "cysa",
@@ -208,7 +238,10 @@
       "gratuito": false,
       "url": "https://www.comptia.org/en-us/certifications/cybersecurity-analyst/",
       "nivel": "intermediário",
-      "preco_usd": 439
+      "preco_usd": 439,
+      "requisito": [
+        "securityplus"
+      ]
     },
     {
       "id": "prof-messer",
@@ -217,7 +250,8 @@
       "tipo": "curso",
       "gratuito": true,
       "url": "https://www.professormesser.com/",
-      "nivel": "iniciante"
+      "nivel": "iniciante",
+      "requisito": []
     },
     {
       "id": "isc2-cc",
@@ -227,7 +261,8 @@
       "gratuito": false,
       "url": "https://www.isc2.org/certifications/cc",
       "nivel": "iniciante",
-      "preco_usd": 199
+      "preco_usd": 199,
+      "requisito": []
     },
     {
       "id": "cisa",
@@ -237,7 +272,10 @@
       "gratuito": false,
       "url": "https://www.isaca.org/credentialing/cisa",
       "nivel": "avançado",
-      "preco_usd": 760
+      "preco_usd": 760,
+      "requisito": [
+        "iso27001"
+      ]
     },
     {
       "id": "cissp",
@@ -247,7 +285,10 @@
       "gratuito": false,
       "url": "https://www.isc2.org/certifications/cissp",
       "nivel": "avançado",
-      "preco_usd": 749
+      "preco_usd": 749,
+      "requisito": [
+        "isc-2-systems-security-certified-practit"
+      ]
     },
     {
       "id": "iso27001",
@@ -257,7 +298,10 @@
       "gratuito": false,
       "url": "https://www.iso.org/standard/27001",
       "nivel": "intermediário",
-      "preco_usd": 395
+      "preco_usd": 395,
+      "requisito": [
+        "exin-information-security-foundation"
+      ]
     },
     {
       "id": "aws-cloudpract",
@@ -267,7 +311,8 @@
       "gratuito": false,
       "url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
       "nivel": "iniciante",
-      "preco_usd": 100
+      "preco_usd": 100,
+      "requisito": []
     },
     {
       "id": "aws-secspec",
@@ -277,7 +322,10 @@
       "gratuito": false,
       "url": "https://aws.amazon.com/certification/certified-security-specialty/",
       "nivel": "avançado",
-      "preco_usd": 300
+      "preco_usd": 300,
+      "requisito": [
+        "aws-cloudpract"
+      ]
     },
     {
       "id": "az900",
@@ -287,7 +335,8 @@
       "gratuito": false,
       "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/",
       "nivel": "iniciante",
-      "preco_usd": 99
+      "preco_usd": 99,
+      "requisito": []
     },
     {
       "id": "az500",
@@ -297,7 +346,10 @@
       "gratuito": false,
       "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/",
       "nivel": "intermediário",
-      "preco_usd": 165
+      "preco_usd": 165,
+      "requisito": [
+        "az900"
+      ]
     },
     {
       "id": "cloudplus",
@@ -307,7 +359,10 @@
       "gratuito": false,
       "url": "https://www.comptia.org/en-us/certifications/cloud/",
       "nivel": "intermediário",
-      "preco_usd": 399
+      "preco_usd": 399,
+      "requisito": [
+        "comptia-cloud-essentials"
+      ]
     },
     {
       "id": "portswigger",
@@ -316,7 +371,8 @@
       "tipo": "curso",
       "gratuito": true,
       "url": "https://portswigger.net/web-security",
-      "nivel": "iniciante"
+      "nivel": "iniciante",
+      "requisito": []
     },
     {
       "id": "owasp-top10",
@@ -325,7 +381,8 @@
       "tipo": "curso",
       "gratuito": true,
       "url": "https://owasp.org/www-project-top-ten/",
-      "nivel": "iniciante"
+      "nivel": "iniciante",
+      "requisito": []
     },
     {
       "id": "sabsa",
@@ -335,7 +392,10 @@
       "gratuito": false,
       "url": "https://sabsa.org/sabsa-certifications/",
       "nivel": "avançado",
-      "preco_usd": 895
+      "preco_usd": 895,
+      "requisito": [
+        "iso27001"
+      ]
     },
     {
       "id": "togaf",
@@ -345,7 +405,8 @@
       "gratuito": false,
       "url": "https://www.opengroup.org/togaf",
       "nivel": "avançado",
-      "preco_usd": 495
+      "preco_usd": 495,
+      "requisito": []
     },
     {
       "id": "cciso",
@@ -355,7 +416,10 @@
       "gratuito": false,
       "url": "https://www.eccouncil.org/programs/certified-ciso-cciso/",
       "nivel": "avançado",
-      "preco_usd": 999
+      "preco_usd": 999,
+      "requisito": [
+        "cissp"
+      ]
     },
     {
       "id": "gcfe",
@@ -365,7 +429,10 @@
       "gratuito": false,
       "url": "https://www.giac.org/certifications/certified-forensic-examiner-gcfe/",
       "nivel": "avançado",
-      "preco_usd": 999
+      "preco_usd": 999,
+      "requisito": [
+        "thm-forensics"
+      ]
     },
     {
       "id": "thm-forensics",
@@ -374,7 +441,10 @@
       "tipo": "curso",
       "gratuito": true,
       "url": "https://tryhackme.com/path/outline/digital-forensics",
-      "nivel": "intermediário"
+      "nivel": "intermediário",
+      "requisito": [
+        "thm-presecurity"
+      ]
     },
     {
       "id": "gcih",
@@ -384,7 +454,10 @@
       "gratuito": false,
       "url": "https://www.giac.org/certifications/certified-incident-handler-gcih/",
       "nivel": "avançado",
-      "preco_usd": 999
+      "preco_usd": 999,
+      "requisito": [
+        "nist-ir"
+      ]
     },
     {
       "id": "nist-ir",
@@ -393,7 +466,10 @@
       "tipo": "leitura",
       "gratuito": true,
       "url": "https://csrc.nist.gov/pubs/sp/800/61/r2/final",
-      "nivel": "intermediário"
+      "nivel": "intermediário",
+      "requisito": [
+        "ibitgq-cyber-incident-response-managemen"
+      ]
     },
     {
       "id": "cryptopals",
@@ -402,7 +478,8 @@
       "tipo": "prática",
       "gratuito": true,
       "url": "https://cryptopals.com/",
-      "nivel": "intermediário"
+      "nivel": "intermediário",
+      "requisito": []
     },
     {
       "id": "thm-iam",
@@ -412,7 +489,10 @@
       "gratuito": false,
       "url": "https://tryhackme.com/room/iaaaidm",
       "nivel": "intermediário",
-      "obs": "requer assinatura TryHackMe Premium (mensal), não é taxa única"
+      "obs": "requer assinatura TryHackMe Premium (mensal), não é taxa única",
+      "requisito": [
+        "microsoft-certified-security-compliance-"
+      ]
     },
     {
       "id": "thm-devsecops",
@@ -421,7 +501,10 @@
       "tipo": "curso",
       "gratuito": true,
       "url": "https://tryhackme.com/path/outline/devsecops",
-      "nivel": "intermediário"
+      "nivel": "intermediário",
+      "requisito": [
+        "seco-secure-programming-foundation"
+      ]
     },
     {
       "id": "thm-osint",
@@ -430,7 +513,8 @@
       "tipo": "curso",
       "gratuito": true,
       "url": "https://tryhackme.com/room/ohsint",
-      "nivel": "iniciante"
+      "nivel": "iniciante",
+      "requisito": []
     },
     {
       "id": "osint-framework",
@@ -439,7 +523,8 @@
       "tipo": "ferramenta",
       "gratuito": true,
       "url": "https://osintframework.com/",
-      "nivel": "iniciante"
+      "nivel": "iniciante",
+      "requisito": []
     },
     {
       "id": "malwareunicorn",
@@ -448,7 +533,8 @@
       "tipo": "curso",
       "gratuito": true,
       "url": "https://malwareunicorn.org/#/workshops",
-      "nivel": "intermediário"
+      "nivel": "intermediário",
+      "requisito": []
     },
     {
       "id": "gciha",
@@ -458,7 +544,10 @@
       "gratuito": false,
       "url": "https://www.giac.org/certifications/reverse-engineering-malware-grem/",
       "nivel": "avançado",
-      "preco_usd": 999
+      "preco_usd": 999,
+      "requisito": [
+        "malwareunicorn"
+      ]
     },
     {
       "id": "fortinet-certified-fundamentals-in-cyber",
@@ -467,7 +556,8 @@
       "tipo": "certificação",
       "gratuito": true,
       "url": "https://training.fortinet.com/local/staticpage/view.php?page=fcf_cybersecurity",
-      "nivel": "iniciante"
+      "nivel": "iniciante",
+      "requisito": []
     },
     {
       "id": "crest-certified-network-intrusion-analys",
@@ -478,7 +568,10 @@
       "url": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-network-intrusion-analyst",
       "nivel": "intermediario",
       "preco_usd": 2481,
-      "obs": "CREST reestruturou o site (novo padrão /skills-certifications-careers/) — confirmar link antes de publicar"
+      "obs": "CREST reestruturou o site (novo padrão /skills-certifications-careers/) — confirmar link antes de publicar",
+      "requisito": [
+        "netplus"
+      ]
     },
     {
       "id": "fortinet-certified-expert-security-opera",
@@ -489,7 +582,10 @@
       "url": "https://training.fortinet.com/local/staticpage/view.php?page=fcx_cybersecurity",
       "nivel": "avancado",
       "preco_usd": 2000,
-      "obs": "escrito + prático"
+      "obs": "escrito + prático",
+      "requisito": [
+        "fortinet-certified-fundamentals-in-cyber"
+      ]
     },
     {
       "id": "checkpoint-certified-security-master",
@@ -500,7 +596,10 @@
       "url": "https://training-certifications.checkpoint.com/#/courses/Check%20Point%20Certified%20Master%20(CCSM)%20R80.x",
       "nivel": "avancado",
       "preco_usd": 350,
-      "obs": "requer CCSE + 2 acreditações prévias"
+      "obs": "requer CCSE + 2 acreditações prévias",
+      "requisito": [
+        "netplus"
+      ]
     },
     {
       "id": "exin-ethical-hacking-foundation",
@@ -511,7 +610,8 @@
       "url": "https://www.exin.com/certifications/exin-ethical-hacking-foundation-exam",
       "nivel": "iniciante",
       "preco_usd": 232,
-      "obs": "preço varia bastante por revendedor, conferir no site"
+      "obs": "preço varia bastante por revendedor, conferir no site",
+      "requisito": []
     },
     {
       "id": "seco-ethical-hacking-foundation",
@@ -521,7 +621,8 @@
       "gratuito": false,
       "url": "https://www.seco-institute.org/certifications/ethical-hacking-certification-track/ethical-hacking-foundation/",
       "nivel": "iniciante",
-      "preco_usd": 460
+      "preco_usd": 460,
+      "requisito": []
     },
     {
       "id": "offensive-security-web-assessor",
@@ -532,7 +633,10 @@
       "url": "https://www.offensive-security.com/web200-oswa/",
       "nivel": "intermediario",
       "preco_usd": 2499,
-      "obs": "inclui assinatura de aprendizado"
+      "obs": "inclui assinatura de aprendizado",
+      "requisito": [
+        "portswigger"
+      ]
     },
     {
       "id": "portswigger-burp-suite-certified-practit",
@@ -543,7 +647,10 @@
       "url": "https://portswigger.net/web-security/certification",
       "nivel": "intermediario",
       "preco_usd": null,
-      "obs": "preço não verificado individualmente"
+      "obs": "preço não verificado individualmente",
+      "requisito": [
+        "portswigger"
+      ]
     },
     {
       "id": "giac-penetration-tester",
@@ -554,7 +661,10 @@
       "url": "https://www.giac.org/certification/gpen",
       "nivel": "avancado",
       "preco_usd": 979,
-      "obs": "faixa $949-999, curso SANS opcional (~$8,5k)"
+      "obs": "faixa $949-999, curso SANS opcional (~$8,5k)",
+      "requisito": [
+        "pentestplus"
+      ]
     },
     {
       "id": "tcm-security-practical-network-penetrati",
@@ -564,7 +674,10 @@
       "gratuito": false,
       "url": "https://certifications.tcm-sec.com/pnpt/",
       "nivel": "avancado",
-      "preco_usd": 499
+      "preco_usd": 499,
+      "requisito": [
+        "hackthebox"
+      ]
     },
     {
       "id": "ec-council-certified-network-defender",
@@ -574,7 +687,10 @@
       "gratuito": false,
       "url": "https://www.eccouncil.org/programs/certified-network-defender-cnd/",
       "nivel": "iniciante",
-      "preco_usd": 480
+      "preco_usd": 480,
+      "requisito": [
+        "netplus"
+      ]
     },
     {
       "id": "cisco-certified-cybersecurity-associate",
@@ -585,7 +701,10 @@
       "url": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/cyberops-associate.html",
       "nivel": "intermediario",
       "preco_usd": 300,
-      "obs": "renomeado em jan/2026, era CyberOps Associate"
+      "obs": "renomeado em jan/2026, era CyberOps Associate",
+      "requisito": [
+        "cisco-intro"
+      ]
     },
     {
       "id": "microsoft-certified-security-operations-",
@@ -595,7 +714,10 @@
       "gratuito": false,
       "url": "https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/",
       "nivel": "intermediario",
-      "preco_usd": 165
+      "preco_usd": 165,
+      "requisito": [
+        "securityplus"
+      ]
     },
     {
       "id": "cisco-certified-cyberops-professional",
@@ -606,7 +728,10 @@
       "url": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/cyberops-professional.html",
       "nivel": "avancado",
       "preco_usd": 700,
-      "obs": "core + concentração"
+      "obs": "core + concentração",
+      "requisito": [
+        "cisco-certified-cybersecurity-associate"
+      ]
     },
     {
       "id": "giac-certified-enterprise-defender",
@@ -617,7 +742,10 @@
       "url": "https://www.giac.org/certification/certified-enterprise-defender-gced",
       "nivel": "avancado",
       "preco_usd": 979,
-      "obs": "faixa $949-999"
+      "obs": "faixa $949-999",
+      "requisito": [
+        "cysa"
+      ]
     },
     {
       "id": "giac-information-security-fundamentals",
@@ -628,7 +756,8 @@
       "url": "https://www.giac.org/certification/information-security-fundamentals-gisf",
       "nivel": "iniciante",
       "preco_usd": 979,
-      "obs": "faixa $949-999"
+      "obs": "faixa $949-999",
+      "requisito": []
     },
     {
       "id": "exin-information-security-foundation",
@@ -639,7 +768,8 @@
       "url": "https://www.exin.com/certifications/information-security-foundation-based-iso-iec-27001-exam?language_content_entity=en",
       "nivel": "iniciante",
       "preco_usd": null,
-      "obs": "preço não verificado individualmente"
+      "obs": "preço não verificado individualmente",
+      "requisito": []
     },
     {
       "id": "isc-2-systems-security-certified-practit",
@@ -649,7 +779,10 @@
       "gratuito": false,
       "url": "https://www.isc2.org/Certifications/SSCP",
       "nivel": "intermediario",
-      "preco_usd": 599
+      "preco_usd": 599,
+      "requisito": [
+        "isc2-cc"
+      ]
     },
     {
       "id": "giac-security-essentials",
@@ -660,7 +793,10 @@
       "url": "https://www.giac.org/certification/security-essentials-gsec",
       "nivel": "intermediario",
       "preco_usd": 979,
-      "obs": "faixa $949-999"
+      "obs": "faixa $949-999",
+      "requisito": [
+        "giac-information-security-fundamentals"
+      ]
     },
     {
       "id": "isaca-certified-information-security-man",
@@ -671,7 +807,10 @@
       "url": "https://www.isaca.org/credentialing/cism",
       "nivel": "avancado",
       "preco_usd": 760,
-      "obs": "$575 sócio ISACA / $760 não-sócio"
+      "obs": "$575 sócio ISACA / $760 não-sócio",
+      "requisito": [
+        "iso27001"
+      ]
     },
     {
       "id": "isaca-certified-in-risk-and-information-",
@@ -682,7 +821,10 @@
       "url": "https://www.isaca.org/credentialing/crisc",
       "nivel": "avancado",
       "preco_usd": 760,
-      "obs": "$575 sócio ISACA / $760 não-sócio (estimado)"
+      "obs": "$575 sócio ISACA / $760 não-sócio (estimado)",
+      "requisito": [
+        "iso27001"
+      ]
     },
     {
       "id": "comptia-cloud-essentials",
@@ -692,7 +834,8 @@
       "gratuito": false,
       "url": "https://www.comptia.org/certifications/cloud-essentials",
       "nivel": "iniciante",
-      "preco_usd": 138
+      "preco_usd": 138,
+      "requisito": []
     },
     {
       "id": "cloud-security-alliance-certificate-of-c",
@@ -702,7 +845,10 @@
       "gratuito": false,
       "url": "https://cloudsecurityalliance.org/education/ccsk/",
       "nivel": "intermediario",
-      "preco_usd": 445
+      "preco_usd": 445,
+      "requisito": [
+        "cloudplus"
+      ]
     },
     {
       "id": "google-professional-cloud-security-engin",
@@ -712,7 +858,10 @@
       "gratuito": false,
       "url": "https://cloud.google.com/learn/certification/cloud-security-engineer",
       "nivel": "intermediario",
-      "preco_usd": 200
+      "preco_usd": 200,
+      "requisito": [
+        "cloudplus"
+      ]
     },
     {
       "id": "isc-2-certified-cloud-security-professio",
@@ -722,7 +871,10 @@
       "gratuito": false,
       "url": "https://www.isc2.org/Certifications/CCSP",
       "nivel": "avancado",
-      "preco_usd": 599
+      "preco_usd": 599,
+      "requisito": [
+        "cloud-security-alliance-certificate-of-c"
+      ]
     },
     {
       "id": "giac-public-cloud-security",
@@ -733,7 +885,10 @@
       "url": "https://www.giac.org/certifications/public-cloud-security-gpcs/",
       "nivel": "avancado",
       "preco_usd": 979,
-      "obs": "faixa $949-999"
+      "obs": "faixa $949-999",
+      "requisito": [
+        "cloudplus"
+      ]
     },
     {
       "id": "seco-secure-programming-foundation",
@@ -743,7 +898,8 @@
       "gratuito": false,
       "url": "https://www.seco-institute.org/certifications/secure-software-certification-track/secure-programming-foundation/",
       "nivel": "iniciante",
-      "preco_usd": 460
+      "preco_usd": 460,
+      "requisito": []
     },
     {
       "id": "cisco-devnet-associate",
@@ -754,7 +910,10 @@
       "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/devnet/associate/index.html",
       "nivel": "intermediario",
       "preco_usd": 300,
-      "obs": "trilha renomeada para Automation em fev/2026"
+      "obs": "trilha renomeada para Automation em fev/2026",
+      "requisito": [
+        "cisco-intro"
+      ]
     },
     {
       "id": "certnexus-cyber-secure-coder",
@@ -765,7 +924,10 @@
       "url": "https://certnexus.com/certification/cyber-secure-coder/",
       "nivel": "intermediario",
       "preco_usd": 300,
-      "obs": "preço não verificado individualmente"
+      "obs": "preço não verificado individualmente",
+      "requisito": [
+        "seco-secure-programming-foundation"
+      ]
     },
     {
       "id": "isc-2-certified-secure-software-lifecycl",
@@ -775,7 +937,10 @@
       "gratuito": false,
       "url": "https://www.isc2.org/Certifications/CSSLP",
       "nivel": "avancado",
-      "preco_usd": 599
+      "preco_usd": 599,
+      "requisito": [
+        "certnexus-cyber-secure-coder"
+      ]
     },
     {
       "id": "giac-certified-web-application-defender",
@@ -786,7 +951,10 @@
       "url": "https://www.giac.org/certification/certified-web-application-defender-gweb",
       "nivel": "avancado",
       "preco_usd": 979,
-      "obs": "faixa $949-999"
+      "obs": "faixa $949-999",
+      "requisito": [
+        "portswigger"
+      ]
     },
     {
       "id": "microsoft-cybersecurity-architect",
@@ -796,7 +964,10 @@
       "gratuito": false,
       "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-100/",
       "nivel": "avancado",
-      "preco_usd": 165
+      "preco_usd": 165,
+      "requisito": [
+        "az500"
+      ]
     },
     {
       "id": "giac-defensible-security-architecture",
@@ -807,7 +978,10 @@
       "url": "https://www.giac.org/certification/defensible-security-architecture-gdsa",
       "nivel": "avancado",
       "preco_usd": 979,
-      "obs": "faixa $949-999"
+      "obs": "faixa $949-999",
+      "requisito": [
+        "giac-security-essentials"
+      ]
     },
     {
       "id": "ec-council-computer-hacking-forensic-inv",
@@ -817,7 +991,10 @@
       "gratuito": false,
       "url": "https://www.eccouncil.org/programs/computer-hacking-forensic-investigator-chfi/",
       "nivel": "intermediario",
-      "preco_usd": 568
+      "preco_usd": 568,
+      "requisito": [
+        "thm-forensics"
+      ]
     },
     {
       "id": "giac-certified-forensic-analyst",
@@ -828,7 +1005,10 @@
       "url": "https://www.giac.org/certification/gcfa",
       "nivel": "avancado",
       "preco_usd": 979,
-      "obs": "faixa $949-999"
+      "obs": "faixa $949-999",
+      "requisito": [
+        "gcfe"
+      ]
     },
     {
       "id": "giac-network-forensic-analyst",
@@ -839,7 +1019,10 @@
       "url": "https://www.giac.org/certification/network-forensic-analyst-gnfa",
       "nivel": "avancado",
       "preco_usd": 979,
-      "obs": "faixa $949-999"
+      "obs": "faixa $949-999",
+      "requisito": [
+        "netplus"
+      ]
     },
     {
       "id": "ibitgq-cyber-incident-response-managemen",
@@ -850,7 +1033,8 @@
       "url": "https://www.itgovernance.co.uk/shop/product/cyber-incident-response-management-foundation-training-course",
       "nivel": "iniciante",
       "preco_usd": 768,
-      "obs": "curso + exame, curso de marca exigido; preço não re-verificado"
+      "obs": "curso + exame, curso de marca exigido; preço não re-verificado",
+      "requisito": []
     },
     {
       "id": "ec-council-certified-incident-handler",
@@ -860,7 +1044,10 @@
       "gratuito": false,
       "url": "https://www.eccouncil.org/programs/ec-council-certified-incident-handler-ecih/",
       "nivel": "intermediario",
-      "preco_usd": 400
+      "preco_usd": 400,
+      "requisito": [
+        "ibitgq-cyber-incident-response-managemen"
+      ]
     },
     {
       "id": "giac-enterprise-incident-response",
@@ -871,7 +1058,10 @@
       "url": "https://www.giac.org/certifications/enterprise-incident-responder-geir/",
       "nivel": "avancado",
       "preco_usd": 979,
-      "obs": "faixa $949-999"
+      "obs": "faixa $949-999",
+      "requisito": [
+        "gcih"
+      ]
     },
     {
       "id": "elearnsecurity-ine-certified-incident-re",
@@ -882,7 +1072,10 @@
       "url": "https://security.ine.com/certifications/ecir-certification/",
       "nivel": "avancado",
       "preco_usd": null,
-      "obs": "preço não verificado individualmente"
+      "obs": "preço não verificado individualmente",
+      "requisito": [
+        "ec-council-certified-incident-handler"
+      ]
     },
     {
       "id": "microsoft-certified-security-compliance-",
@@ -892,7 +1085,8 @@
       "gratuito": false,
       "url": "https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals/",
       "nivel": "iniciante",
-      "preco_usd": 99
+      "preco_usd": 99,
+      "requisito": []
     },
     {
       "id": "microsoft-certified-identity-and-access-",
@@ -902,7 +1096,10 @@
       "gratuito": false,
       "url": "https://learn.microsoft.com/en-us/credentials/certifications/identity-and-access-administrator/",
       "nivel": "intermediario",
-      "preco_usd": 165
+      "preco_usd": 165,
+      "requisito": [
+        "microsoft-certified-security-compliance-"
+      ]
     },
     {
       "id": "salesforce-certified-identity-and-access",
@@ -913,7 +1110,10 @@
       "url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Identity-and-Access-Management-Designer-Exam-Guide",
       "nivel": "intermediario",
       "preco_usd": null,
-      "obs": "preço não verificado individualmente"
+      "obs": "preço não verificado individualmente",
+      "requisito": [
+        "microsoft-certified-security-compliance-"
+      ]
     },
     {
       "id": "idpro-certified-identity-professional",
@@ -923,7 +1123,10 @@
       "gratuito": false,
       "url": "https://idpro.org/cidpro/",
       "nivel": "avancado",
-      "preco_usd": 700
+      "preco_usd": 700,
+      "requisito": [
+        "microsoft-certified-identity-and-access-"
+      ]
     },
     {
       "id": "fortinet-certified-solution-specialist-s",
@@ -934,7 +1137,10 @@
       "url": "https://training.fortinet.com/local/staticpage/view.php?page=fcss_SASE",
       "nivel": "avancado",
       "preco_usd": 800,
-      "obs": "dois exames"
+      "obs": "dois exames",
+      "requisito": [
+        "netplus"
+      ]
     },
     {
       "id": "pdso-certified-devsecops-professional",
@@ -944,7 +1150,10 @@
       "gratuito": false,
       "url": "https://www.practical-devsecops.com/certified-devsecops-professional/",
       "nivel": "intermediario",
-      "preco_usd": 899
+      "preco_usd": 899,
+      "requisito": [
+        "thm-devsecops"
+      ]
     },
     {
       "id": "pdso-certified-devsecops-expert",
@@ -954,7 +1163,10 @@
       "gratuito": false,
       "url": "https://www.practical-devsecops.com/certified-devsecops-expert",
       "nivel": "avancado",
-      "preco_usd": 1099
+      "preco_usd": 1099,
+      "requisito": [
+        "pdso-certified-devsecops-professional"
+      ]
     },
     {
       "id": "giac-open-source-intelligence",
@@ -965,7 +1177,10 @@
       "url": "https://www.giac.org/certification/open-source-intelligence-gosi",
       "nivel": "intermediario",
       "preco_usd": 979,
-      "obs": "faixa $949-999"
+      "obs": "faixa $949-999",
+      "requisito": [
+        "thm-osint"
+      ]
     },
     {
       "id": "inteltechniques-osint-professional",
@@ -976,7 +1191,10 @@
       "url": "https://inteltechniques.com/training-osip.html",
       "nivel": "intermediario",
       "preco_usd": null,
-      "obs": "preço não verificado individualmente"
+      "obs": "preço não verificado individualmente",
+      "requisito": [
+        "osint-framework"
+      ]
     },
     {
       "id": "infosec-institute-certified-reverse-engi",
@@ -987,7 +1205,10 @@
       "url": "https://app.infosecinstitute.com/portal/courses/a0tC0000000Fp4IIAS",
       "nivel": "intermediario",
       "preco_usd": 4599,
-      "obs": "exame + curso exigido"
+      "obs": "exame + curso exigido",
+      "requisito": [
+        "malwareunicorn"
+      ]
     },
     {
       "id": "tcm-security-practical-junior-malware-re",
@@ -997,7 +1218,10 @@
       "gratuito": false,
       "url": "https://certifications.tcm-sec.com/pjmr/",
       "nivel": "avancado",
-      "preco_usd": 329
+      "preco_usd": 329,
+      "requisito": [
+        "infosec-institute-certified-reverse-engi"
+      ]
     },
     {
       "id": "exin-privacy-and-data-protection-foundat",
@@ -1008,7 +1232,8 @@
       "url": "https://www.exin.com/certifications/exin-privacy-and-data-protection-foundation-exam",
       "nivel": "iniciante",
       "preco_usd": 207,
-      "obs": "preço não re-verificado"
+      "obs": "preço não re-verificado",
+      "requisito": []
     },
     {
       "id": "iapp-certified-information-privacy-profe",
@@ -1018,7 +1243,10 @@
       "gratuito": false,
       "url": "https://iapp.org/certify/cipp",
       "nivel": "intermediario",
-      "preco_usd": 550
+      "preco_usd": 550,
+      "requisito": [
+        "exin-privacy-and-data-protection-foundat"
+      ]
     },
     {
       "id": "asis-associate-protection-professional",
@@ -1029,7 +1257,8 @@
       "url": "https://www.asisonline.org/certification/associate-protection-professional-app/",
       "nivel": "intermediario",
       "preco_usd": null,
-      "obs": "preço não verificado individualmente"
+      "obs": "preço não verificado individualmente",
+      "requisito": []
     },
     {
       "id": "isaca-certified-data-privacy-solutions-e",
@@ -1040,7 +1269,10 @@
       "url": "https://www.isaca.org/credentialing/certified-data-privacy-solutions-engineer",
       "nivel": "avancado",
       "preco_usd": 760,
-      "obs": "estimado, mesma faixa dos outros ISACA"
+      "obs": "estimado, mesma faixa dos outros ISACA",
+      "requisito": [
+        "iapp-certified-information-privacy-profe"
+      ]
     },
     {
       "id": "iapp-certified-information-privacy-techn",
@@ -1050,7 +1282,10 @@
       "gratuito": false,
       "url": "https://iapp.org/certify/cipt/",
       "nivel": "avancado",
-      "preco_usd": 550
+      "preco_usd": 550,
+      "requisito": [
+        "iapp-certified-information-privacy-profe"
+      ]
     }
   ],
   "atualizado_em": "2026-07-13",

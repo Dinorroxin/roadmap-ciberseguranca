@@ -123,7 +123,8 @@ body {
 
 /* matriz */
 
-#roadmap-container.matrix {
+#roadmap-container.matrix,
+#roadmap-container-by-requirements.matrix {
   max-width: 1100px;
   margin: 0 auto;
   display: flex;
@@ -207,6 +208,134 @@ body {
   display: none;
 }
 
+/* título de seção (separador entre matriz por nível e matriz por requisitos) */
+
+.section-title {
+  max-width: 1100px;
+  margin: 40px auto 16px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+/* matriz por pré-requisitos — colunas por profundidade de dependência,
+   não por nível manual. svg de linhas fica DENTRO do container que rola
+   (.depth-columns), como primeiro filho, pra rolar junto com as colunas
+   em vez de ficar preso ao viewport. */
+
+.depth-columns {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  padding-bottom: 8px;
+  flex: 1 1 auto;
+  min-width: 0;
+  position: relative;
+  justify-content: center;
+  justify-content: safe center; /* fallback: se o conteúdo for mais largo que o container, volta a alinhar à esquerda em vez de cortar o início ao rolar */
+}
+
+.dep-lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  overflow: visible;
+}
+
+.dep-lines path {
+  fill: none;
+  stroke: var(--border);
+  stroke-width: 1.5;
+  transition: opacity 0.2s ease;
+}
+
+.dep-lines path.line-hidden {
+  opacity: 0;
+}
+
+.depth-col {
+  position: relative;
+  flex: 0 0 152px;
+  min-width: 152px;
+  margin-right: 44px;
+  display: flex;
+  flex-direction: column;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.depth-col:last-child {
+  margin-right: 0;
+}
+
+.depth-col-title {
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+  text-align: center;
+  margin: 0 0 10px;
+}
+
+.depth-col .item-chip {
+  width: 132px;
+  margin: 0 0 24px;
+}
+
+.depth-col .item-chip.chip-hidden {
+  height: 0;
+  min-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+/* indicador de que o chip tem ramificações (na matriz por pré-requisitos) */
+.depth-col .item-chip.has-children {
+  position: relative;
+  padding-right: 20px;
+}
+
+.depth-col .item-chip.has-children::after {
+  content: '›';
+  position: absolute;
+  right: 7px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-dim);
+  font-size: 0.95rem;
+  transition: transform 0.2s ease;
+}
+
+.depth-col .item-chip.has-children.is-expanded::after {
+  transform: translateY(-50%) rotate(90deg);
+}
+
+/* toast — aviso rápido (ex: item sem continuação definida) */
+.toast {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%) translateY(8px);
+  background: var(--panel);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-size: 0.8rem;
+  padding: 10px 18px;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  z-index: 30;
+}
+
+.toast.visible {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
 /* chip do item */
 
 .item-chip {
@@ -227,7 +356,7 @@ body {
   overflow: hidden;
   transition: border-color 0.15s ease, background 0.15s ease,
     opacity 0.25s ease, transform 0.25s ease, width 0.25s ease,
-    padding 0.25s ease, margin 0.25s ease;
+    padding 0.25s ease, margin 0.25s ease, height 0.25s ease;
 }
 
 .item-chip:hover {

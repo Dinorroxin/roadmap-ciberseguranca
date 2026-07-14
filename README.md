@@ -22,7 +22,7 @@ Mais do que uma ferramenta de estudo, esse projeto também é meu primeiro conta
 
 - [x] Base de dados em JSON, separando **nichos** (categorias) de **itens** (cursos/certificações)
 - [x] Preços verificados e atualizados (USD, jul/2026)
-- [ ] Campo de pré-requisito entre itens (ex: Security+ requer Network+)
+- [x] Campo de pré-requisito entre itens (ex: Security+ requer Network+)
 - [x] Filtro por preço (gratuito / pago)
 - [x] Filtro por tipo (curso, certificação, prática, ferramenta, leitura)
 - [x] Interface visual (Figma → HTML/CSS/JS)
@@ -86,10 +86,10 @@ cd roadmap-ciberseguranca
 
 ## Status
 
-Falta deploy ainda mas já está parcialmente senão totalmente completo
+Falta deploy ainda mas já está parcialmente completo, com uma section para o roadmap de nivel e outro para o de pré-requisitos, faltando somente algumas validações e melhorias de design 
 
 ---
 
 ## Autor
 
-Felipe Siqueira Ramos Galvez (https://github.com/Dinorroxin) — estudante de Sistemas de Informação, estagiário da AGEVISA
+Felipe Siqueira Ramos Galvez (https://github.com/Dinorroxin) — estudante de Sistemas de Informação no 5º período
